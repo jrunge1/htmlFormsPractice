@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is my assignment for module on HTML Forms</h1>
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Add User</legend>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                    
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+                    
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address">        
+                </div>
+                    
+                <div>
+                    <label for="status">Status</label>
+                    <select name="status_options" id="status">
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <p>Please choose your favorite Programming Language</p>
+                    <input type="radio" name="fav_prog_lang" id="html" value="html">
+                    <label for="html">HTML</label>
+                    <input type="radio" name="fav_prog_lang" id="css" name="css">
+                    <label for="css">CSS</label>
+                    <input type="radio" name="fav_prog_lang" id="javascript" value="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea name="commentSection" id="comments" cols="30" rows="10"></textarea>           
+                </div>
+
+                <div>
+                    <input type="checkbox" name="Sign_up" id="signUp">
+                    <label for="signUp">Sign Up</label>
+                    <input type="checkbox" name="termsAndConditions" id="tAndC">
+                    <label for="tAndC">Agree to Terms and Conditions</label> 
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
